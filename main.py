@@ -10,8 +10,8 @@ SECRET_KEY = os.urandom(32)
 ev_calculator_app = Flask(__name__)
 ev_calculator_app.config['SECRET_KEY'] = SECRET_KEY
 
-
-@ev_calculator_app.route('/', methods=['GET', 'POST'])
+# methods=['GET', 'POST']
+@ev_calculator_app.route('/')
 def operation_result():
     # request.form looks for:
     # html tags with matching "name="
