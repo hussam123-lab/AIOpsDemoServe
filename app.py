@@ -66,4 +66,4 @@ def flash_errors(form):
 
 
 # if __name__ == '__main__':
-ev_calculator_app.run()
+# ev_calculator_app.run()
